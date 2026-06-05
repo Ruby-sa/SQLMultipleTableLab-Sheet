@@ -44,3 +44,16 @@ CREATE TABLE Delivery (
   PRIMARY KEY (DeliveryNumber));
 
 -- using the data in the text files, insert into the tables this information
+.mode tabs
+.import item.txt Item
+.import employee.txt Employee
+.import department.txt Department
+.import sale.txt Sale
+.import supplier.txt Supplier
+.import delivery.txt Delivery
+SELECT * FROM Item;
+SELECT * FROM Employee;
+SELECT * FROM Department;
+SELECT * FROM Sale;
+SELECT * FROM Supplier;
+SELECT * FROM Delivery;
